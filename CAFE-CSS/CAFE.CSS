@@ -285,7 +285,7 @@ html {
     color: var(--White);
 }
 .container{
-        width: 96%;
+        width: 100%;
         max-width: 1170px;
     }
 @media (max-width:767px){
@@ -297,10 +297,20 @@ html {
     align-items: center;
     }
     .photo{
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: 1fr;
+    }
+    .head {
+    margin: 0 0px;
+    padding: 0px 10px;
+    justify-content: space-around;
+    margin-left: 5px;
+    }
+    .head a {
+    margin: 3px;
     }
     .photo img {
     margin: 25px;
+    margin-left: 40px;
     }
     .About p{
     border-bottom: 2px solid var(--brown);

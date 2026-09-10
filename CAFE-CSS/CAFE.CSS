@@ -291,13 +291,16 @@ html {
 @media (max-width:767px){
     .container{
         width: 100%;
-        margin-left:20px ;
+        margin-left:0 ;
     }
     .hero-one{
     align-items: center;
     }
     .photo{
     grid-template-columns: repeat(2,1fr);
+    }
+    .photo img {
+    margin: 25px;
     }
     .About p{
     border-bottom: 2px solid var(--brown);

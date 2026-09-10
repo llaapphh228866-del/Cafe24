@@ -308,6 +308,15 @@ html {
     .head a {
     margin: 3px;
     }
+    footer {
+    margin: 0 0px;
+    padding: 0px 10px;
+    justify-content: space-around;
+    margin-left: 5px;
+    }
+    footer a {
+    margin: 3px;
+    }
     .photo img {
     margin: 25px;
     margin-left: 40px;
